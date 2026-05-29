@@ -1,293 +1,245 @@
-Try Again License Examples
+# Try Again License Examples
 
 This document gives examples of how use cases may be classified under the Try Again License.
 
-The guiding principle is:
+**The guiding principle is:**
 
-If “try again” is an acceptable recovery strategy, Community Use likely applies.
-If “try again” is not an acceptable recovery strategy, Commercial Use likely applies.
+> If "try again" is an acceptable recovery strategy, Community Use likely applies.
+> If "try again" is **not** an acceptable recovery strategy, Commercial Use likely applies.
 
-These examples are illustrative only. The full license controls.
+*These examples are illustrative only. The full license controls.*
 
-⸻
+---
 
-Community Use examples
+## Community Use Examples
 
 Community Use generally applies when mistakes are cheap, reversible, and retry-safe.
 
-Blog generation
+### Blog generation
 
-Likely category: Community Use
+**Likely category:** Community Use
 
 A system uses WBS or AISpec-style prompts to generate blog posts.
 
-Why:
+**Why:** A bad blog post can be rewritten, edited, deleted, or regenerated.
 
-A bad blog post can be rewritten, edited, deleted, or regenerated.
+---
 
-⸻
+### Marketing content
 
-Marketing content
-
-Likely category: Community Use
+**Likely category:** Community Use
 
 A system generates ad copy, landing page text, emails, social media posts, or product descriptions.
 
-Why:
+**Why:** Most mistakes can be reviewed and corrected before publication.
 
-Most mistakes can be reviewed and corrected before publication.
+**Note:** If the system autonomously sends messages at scale, especially in regulated or high-risk contexts, it may move into Growth / Limited Commercial Use or Full Commercial Use.
 
-Note:
+---
 
-If the system autonomously sends messages at scale, especially in regulated or high-risk contexts, it may move into Growth / Limited Commercial Use or Full Commercial Use.
+### Image generation
 
-⸻
-
-Image generation
-
-Likely category: Community Use
+**Likely category:** Community Use
 
 A system generates images, design concepts, product mockups, or creative assets.
 
-Why:
+**Why:** Bad outputs can usually be regenerated.
 
-Bad outputs can usually be regenerated.
+---
 
-⸻
+### Video generation
 
-Video generation
-
-Likely category: Community Use
+**Likely category:** Community Use
 
 A system generates videos, reels, clips, highlight videos, or visual drafts.
 
-Why:
+**Why:** Bad outputs can usually be regenerated, reviewed, edited, or discarded.
 
-Bad outputs can usually be regenerated, reviewed, edited, or discarded.
+---
 
-⸻
+### Coding agents
 
-Coding agents
-
-Likely category: Community Use
+**Likely category:** Community Use
 
 A system uses WBS, AISpec, or constraint-based workflows to help generate code, create PRs, find bugs, run tests, or improve software.
 
-Why:
+**Why:** Bad code can usually be reviewed, tested, rejected, reverted, or fixed.
 
-Bad code can usually be reviewed, tested, rejected, reverted, or fixed.
+**Note:** If the coding agent controls high-consequence systems such as payments, healthcare, drones, trading, defense, or critical infrastructure, the use may require a commercial license.
 
-Note:
+---
 
-If the coding agent controls high-consequence systems such as payments, healthcare, drones, trading, defense, or critical infrastructure, the use may require a commercial license.
+### Internal tools
 
-⸻
-
-Internal tools
-
-Likely category: Community Use
+**Likely category:** Community Use
 
 A company uses the protected material to build internal dashboards, planning docs, research tools, or low-risk workflow helpers.
 
-Why:
+**Why:** Mistakes are usually internal, reviewable, and reversible.
 
-Mistakes are usually internal, reviewable, and reversible.
+**Note:** Calling a system "internal" does not make it Community Use if it governs high-consequence actions.
 
-Note:
+---
 
-Calling a system “internal” does not make it Community Use if it governs high-consequence actions.
-
-⸻
-
-Growth / Limited Commercial examples
+## Growth / Limited Commercial Examples
 
 Growth / Limited Commercial Use applies where mistakes may be tolerable at small scale but become more consequential as usage, revenue, customer exposure, or operational dependency increases.
 
-AI chief of staff
+### AI chief of staff
 
-Likely category: Growth / Limited Commercial Use
+**Likely category:** Growth / Limited Commercial Use
 
 A founder or team uses an AI chief of staff based on WBS, memory, approval gates, and operating procedures.
 
-Why:
-
-At small scale, it may mostly organize tasks, draft plans, and suggest actions. At larger scale, it may become operationally important.
+**Why:** At small scale, it may mostly organize tasks, draft plans, and suggest actions. At larger scale, it may become operationally important.
 
 Commercial licensing may be required once usage crosses revenue, interaction, enterprise, or operational-dependency thresholds.
 
-⸻
+---
 
-Customer-facing support agent
+### Customer-facing support agent
 
-Likely category: Growth / Limited Commercial Use, possibly Full Commercial Use
+**Likely category:** Growth / Limited Commercial Use, possibly Full Commercial Use
 
 A system answers customer questions, drafts replies, or recommends actions.
 
-Why:
-
-If a human reviews outputs and the system does not take material external action, it may start as Growth / Limited Commercial Use.
+**Why:** If a human reviews outputs and the system does not take material external action, it may start as Growth / Limited Commercial Use.
 
 If the system autonomously refunds customers, changes accounts, sends high-volume messages, handles regulated data, or takes binding action, it may require Full Commercial licensing.
 
-⸻
+---
 
-Voice agent / outbound calling agent
+### Voice agent / outbound calling agent
 
-Likely category: Growth / Limited Commercial Use, possibly Full Commercial Use
+**Likely category:** Growth / Limited Commercial Use, possibly Full Commercial Use
 
 A system makes or receives calls, schedules appointments, qualifies leads, or speaks with customers.
 
-Why:
-
-At small scale with human oversight, it may fit Growth / Limited Commercial Use.
+**Why:** At small scale with human oversight, it may fit Growth / Limited Commercial Use.
 
 At scale, mistakes can create customer harm, reputational damage, compliance exposure, or operational disruption.
 
 Commercial licensing may be required earlier for voice and customer-facing autonomous systems.
 
-⸻
+---
 
-Recruitment and executive search
+### Recruitment and executive search
 
-Likely category: Growth / Limited Commercial Use
+**Likely category:** Growth / Limited Commercial Use
 
 A system screens candidates, drafts outreach, ranks applicants, or assists recruiters.
 
-Why:
+**Why:** Mistakes can affect people's opportunities and company decisions. Human review may reduce risk, but scale increases consequences.
 
-Mistakes can affect people’s opportunities and company decisions. Human review may reduce risk, but scale increases consequences.
+---
 
-⸻
+### Paralegal research
 
-Paralegal research
-
-Likely category: Growth / Limited Commercial Use
+**Likely category:** Growth / Limited Commercial Use
 
 A system performs legal research, drafts notes, summarizes cases, or prepares non-final materials.
 
-Why:
+**Why:** Research and drafting may be reviewable.
 
-Research and drafting may be reviewable.
+**Note:** Legal execution, filing, binding legal advice, or actions affecting legal rights may require Full Commercial licensing.
 
-Note:
+---
 
-Legal execution, filing, binding legal advice, or actions affecting legal rights may require Full Commercial licensing.
-
-⸻
-
-Full Commercial examples
+## Full Commercial Examples
 
 Full Commercial Use requires a separate commercial license from day one.
 
-Payments
+### Payments
 
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system uses the protected material to govern, verify, route, approve, or execute payments.
 
-Why:
+**Why:** Mistakes can move real money, create losses, trigger disputes, or produce regulatory exposure.
 
-Mistakes can move real money, create losses, trigger disputes, or produce regulatory exposure.
+---
 
-⸻
+### Stablecoin movement
 
-Stablecoin movement
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system helps govern, verify, route, approve, or execute stablecoin transactions.
 
-Why:
+**Why:** Mistakes can move real value across financial rails.
 
-Mistakes can move real value across financial rails.
+---
 
-⸻
+### Trading
 
-Trading
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system recommends, approves, executes, verifies, or governs trades.
 
-Why:
+**Why:** A wrong action can cause immediate financial loss.
 
-A wrong action can cause immediate financial loss.
+---
 
-⸻
+### Healthcare decision systems
 
-Healthcare decision systems
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system recommends, governs, verifies, or executes healthcare actions.
 
-Why:
+**Why:** Mistakes can affect patient care, medical records, billing, treatment, or clinical decisions.
 
-Mistakes can affect patient care, medical records, billing, treatment, or clinical decisions.
+---
 
-⸻
+### Drones
 
-Drones
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system uses natural language, AI agents, WBS, approval gates, or constraint-governance methods to control, route, plan, or authorize drone actions.
 
-Why:
+**Why:** A mistake can affect physical space, property, safety, or regulated airspace.
 
-A mistake can affect physical space, property, safety, or regulated airspace.
+---
 
-⸻
+### Robotics
 
-Robotics
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system controls or governs robot actions in the physical world.
 
-Why:
+**Why:** Physical-world mistakes may not be safely recoverable through "try again."
 
-Physical-world mistakes may not be safely recoverable through “try again.”
+---
 
-⸻
+### Autonomous vehicles
 
-Autonomous vehicles
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system governs or influences vehicle movement, routing, safety, or control.
 
-Why:
+**Why:** Mistakes can cause physical harm, property damage, regulatory violations, or operational failure.
 
-Mistakes can cause physical harm, property damage, regulatory violations, or operational failure.
+---
 
-⸻
+### Military or defense systems
 
-Military or defense systems
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system is used in military, defense, weapons, targeting, logistics, surveillance, command, control, or operational decision-making.
 
-Why:
+**Why:** Mistakes can have severe consequences and require explicit commercial terms.
 
-Mistakes can have severe consequences and require explicit commercial terms.
+---
 
-⸻
+### AGI or superintelligence systems
 
-AGI or superintelligence systems
-
-Likely category: Full Commercial Use
+**Likely category:** Full Commercial Use
 
 A system uses the protected material to govern, align, route, verify, constrain, or operate AGI or superintelligence systems.
 
-Why:
+**Why:** The consequences of failure may be large-scale, irreversible, or impossible to recover from through retry.
 
-The consequences of failure may be large-scale, irreversible, or impossible to recover from through retry.
+---
 
-⸻
-
-Borderline cases
+## Borderline Cases
 
 When in doubt, ask:
 
