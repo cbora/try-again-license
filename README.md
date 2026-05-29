@@ -113,6 +113,12 @@ An **irreversible action** is a one-way door. A mistake cannot be safely undone 
 
 ---
 
+## Companion frameworks
+
+- [Prompt Injection Mitigation Framework](./prompt-injection-framework.md) — separate reading from power for semi-autonomous agents.
+
+---
+
 ## Protected Material
 
 The Try Again License is intended to cover the broader constraint-governance stack, including:
